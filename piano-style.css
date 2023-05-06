@@ -1,0 +1,24 @@
+.header-pic {
+    position: relative;
+    display: inline-block; /* добавим display: inline-block, чтобы ширина контейнера соответствовала ширине изображения */
+}
+
+.header-pic-pic {
+    width: 100%;
+    height: auto;
+}
+
+.header-pic::before {
+    content: "Надпись";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    width: 100%; /* зададим ширину и высоту для надписи */
+    height: 100%;
+    box-sizing: border-box; /* учтем в паддингах и бордерах ширину элемента */
+}
