@@ -12,6 +12,7 @@
 }
 
 .header-text {
+    font-size: 3.5em;
     white-space: nowrap;
     text-align: center;
     position: absolute;
@@ -21,6 +22,7 @@
 }
 
 .header-under-text {
+    font-size: 1em;
     width: 85%;
     text-align: center;
     position: absolute;
