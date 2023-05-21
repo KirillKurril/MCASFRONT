@@ -1,0 +1,39 @@
+.main-content{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    margin-top: 7%;
+    width: 95%;
+    height: 1000px;
+}
+.features{
+border-radius: 5%;
+width: 30%;
+background-color: #987456;
+}
+.content{
+background-color: #789123;
+margin-right: 10%;
+width: 60%;
+display: flex;
+justify-content: center;
+padding: 3%;
+}
+.content button{
+    width: auto;
+    height: 2em;
+}
+
+.search-row{
+    height: fit-content;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.search{
+    height: 2em;
+    width: 100%;
+    margin-right: 5%;
+}
