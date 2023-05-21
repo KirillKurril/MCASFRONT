@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <!-- ----------------------------------------------------------------------------- -->         
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+        <meta name="description" content=""> 
+        <meta name="author" content=""> 
+        <!-- Bootstrap core CSS -->         
+        <link href="bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css"> 
+        <!-- Custom styles for this template -->         
+        <link rel="stylesheet" href="blocks.css"> 
+        <link href="style.css" rel="stylesheet"> 
+        <!-- ----------------------------------------------------------------------------- -->         
+        <link rel="stylesheet" href="./piano-style.css"> 
+        <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.6/index.global.min.js'></script>         
+        <link rel="stylesheet" href="./fc/style.css"> 
+        <script src="./js/main.js"></script>         
+        <link rel="stylesheet" href="library.css"> 
+        <link rel="stylesheet" href="cool-button.css">
+        <title>Фортепианное отделение</title>         
+    </head>     
+    <body class="text-muted"> 
+        <!-- ----------------------------------------------------------------------------- -->         
+        <header class="bg-secondary"> 
+            <nav class="navbar navbar-dark navbar-expand-lg pb-3 pt-3 shadow-none"> 
+                <div class="container"> <a class="navbar-brand text-white" href="#"> <img src="./sources/emblem.png" alt="Логотип" class="me-2"> <span class="align-middle fw-bold h4 ms-1">МДШИ</span></a> 
+                    <button class="navbar-toggler rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown-2" aria-controls="navbarNavDropdown-2" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> 
+                    </button>                     
+                    <div class="collapse navbar-collapse " id="navbarNavDropdown-2"> 
+                        <ul class="ms-auto navbar-nav"> 
+                            <li class="nav-item"> <a class="active nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3" aria-current="page" href="./index.html">Главная</a> 
+                            </li>                             
+                            <li class="nav-item"> <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3" href="#">Музыкальная библиотека</a> 
+                            </li>                             
+                            <li class="nav-item"> <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3" href="#">Личный кабинет</a> 
+                            </li>                             
+                            <li class="nav-item"> <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3" href="#">Новости</a> 
+                            </li>                             
+                            <li class="nav-item"> 
+</li>                             
+                            <li class="nav-item"> 
+</li>                             
+                        </ul>                         
+                    </div>                     
+                </div>                 
+            </nav>             
+        </header>         
+        <!-- ----------------------------------------------------------------------------- -->         
+        <main> 
+            <section class="bg-secondary hero-block pb-5 position-relative text-white"> 
+                <div class="header-pic"> 
+                    <div class="header-text display-3 fw-bold mb-3">Музыкальная библиотека</div>                     
+                    <img src="./sources/headers/imgonline-com-ua-Resize-J3r2AIOjabPFzAH9.png" style="width: 100%; " class="header-pic-pic"> 
+                </div>                 
+            </section>             
+            <section class=" main-content"> 
+                <div class="row"> 
+                    <div class="content"> 
+                        <div class="search-row"> 
+                            <input type="text" id="queryInput" class="search form-control" list="queryOptions" placeholder="Введите название книги..."> 
+                            <datalist id="queryOptions"> 
+                                <option value="Вариант 1" id="hint"> 
+
+                                <option value="Вариант 2" id="hint"> 
+
+                                <option value="Вариант 3" id="hint"> 
+                            </datalist>                             
+                            <button type="submit" class="floating-button search-butt" >Поиск</button>                             
+                        </div>                         
+                    </div>                     
+                    <div class="bg-secondary features pb-5 pt-5 text-center text-lg-start text-white"> 
+                        <form id="filterForm"> 
+                            <label for="category">Категория:</label>                             
+                            <select id="category" name="category"> 
+                                <option value="">Все</option>                                 
+                                <option value="electronics">Электроника</option>                                 
+                                <option value="clothing">Одежда</option>                                 
+                                <option value="books">Книги</option>                                 
+                            </select>                             
+                            <label for="priceRange">Диапазон цен:</label>                             
+                            <select id="priceRange" name="priceRange"> 
+                                <option value="">Все</option>                                 
+                                <option value="0-50">0-50$</option>                                 
+                                <option value="51-100">51-100$</option>                                 
+                                <option value="101-200">101-200$</option>                                 
+                            </select>                             
+                            <label for="brand">Бренд:</label>                             
+                            <input type="text" id="brand" name="brand" placeholder="Введите бренд..."> 
+                            <button type="submit">Применить фильтры</button>                             
+                        </form>                         
+                    </div>                     
+                </div>                 
+            </section>             
+        </main>         
+    </body>     
+</html>
